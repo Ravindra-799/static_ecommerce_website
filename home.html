@@ -1,0 +1,105 @@
+<DOCTYPE html>
+<html>
+	<head>
+	<!DOCTYPE html>
+<html>
+<head>
+<title>Search Box Example 1</title>
+<style type="text/css">
+	
+	#search{
+		float:right;
+		padding:20px;
+	}
+	.input{
+		padding: 5px 15px;
+		font-size:20px;
+		border:1px solid #0076a3;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.button {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial;
+		font-size:20px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px blue;
+		background: #0095cd;
+		border-top-right-radius: 15px 15px;
+		border-bottom-right-radius: 15px 15px;
+	}
+	.button:hover {
+		text-decoration: none;
+		background-color: orange;
+		color:white;
+	}
+	body{
+		
+		background-image: url('images/hbg.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	img{
+		height:150px;
+	}
+	#imgs{
+		margin-top: 60px;
+		
+		box-sizing: content-box;
+		align-content: center;
+	}
+	
+	#imgs a{
+		padding: 30px;
+		align-items:center;
+		float:left;
+		padding-left:50px;
+		padding-bottom: 50px;
+		
+
+
+	}
+	img{
+		height:250px;
+		width:auto;
+		transition-property: none;
+	}
+	#imgs a img:hover{
+		cursor:pointer;
+		width: 300px;
+		
+		transition:0.9s ease-in-out;
+		border-color: rgb(39, 71, 131);
+	}
+</style>
+</head>
+<body>
+
+		<form id="search" method="get" action="http://www.google.com">
+		        <input type="search" class="input"size="20px" maxlength="30"placeholder="Search here...."><input type="submit" value="search" class="button">
+		</form>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAI-mOgs44W5CeTuo-vmR8Fht7xd6PlOilWA&usqp=CAU" alt="logo" width="auto" height="140px" style="border:1px solid black;border-radius: 8px;">
+		<br>
+		<br>
+		<br>
+		
+		<div id="imgs">
+			<a href="men.html" target="myframe"><img class ="items" src="https://dcassetcdn.com/design_img/1038665/124355/124355_5995880_1038665_thumbnail.jpg"></a>
+			<a href="women.html"target="myframe"><img class="items" src="images/womens.jpg"></a>
+			<a href="book.html"target="myframe"><img class="items" src="images/book.jpg"></a>
+			<a href="acc.html" target="myframe"><img class="items" src="images/a.jpg"></a>
+			<a href="kit.html"target="myframe"><img class="items" src="images/kitchen.jpg"></a>
+			<a href="kid.html" target="myframe"><img class="items" src="images/baby.jpg"></a>
+	
+		</div>
+		
+		
+</body>
+</html>
+
