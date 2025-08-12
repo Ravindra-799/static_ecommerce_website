@@ -1,0 +1,1 @@
+https://staticecommercesite.netlify.app/
